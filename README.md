@@ -1,8 +1,7 @@
 # YouTube Search with YouTube API in React
 
 ## Todos
-- [ ] Complete the [Stephen Grider Course](https://www.udemy.com/course/react-redux/learn/lecture/12531348#overview)
-- [ ] Upload this to GitHub Pages.
+- [ ] When there's something to share, upload this to GitHub Pages.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
