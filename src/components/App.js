@@ -4,7 +4,7 @@ import youtube from '../apis/youtube';
 import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
 
-const KEY = 'AIzaSyDG852bOuZx7FhWrbyvOlZE8OpxxILJ5bM';
+const KEY = 'AIzaSyBHblbdLjGKkmuz3k1xgAgyLpAfYBPPkpk';
 
 class App extends React.Component {
 	state = {
@@ -17,7 +17,6 @@ class App extends React.Component {
 	}
 
 	onTermSubmit = async term => {
-		console.log(term);
 		const response = await youtube.get('/search', {
 			params: {
 				q: term,
