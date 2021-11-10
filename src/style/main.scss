@@ -1,14 +1,24 @@
-.body {
-  background-color: lightblue !important;
+#root {
+  background-color: $white;
+  font-family: $font-primary;
 }
 
-.youtube-search {
+.youtube-search-page {
   max-width: 1127px;
+  margin: 0 auto;
+  box-shadow: $box-shadow;
 }
 
 // Search Bar
 .search-bar {
   display: flex;
+  width: 100%;
+  background: $white;
+  padding: .875rem;
+  border: $border;
+  border-radius: .25rem;
+  margin-bottom: .9375rem;
+  box-sizing: border-box;
 
   .logo-container {
     display: flex;
@@ -33,14 +43,18 @@
   }
   .form {
     flex: 1;
-
+    width: 100%;
+    
     .field {
       
       label {
         
       }
       input {
-
+        width: 100%;
+        padding: .59375rem .875rem;
+        border: $border;
+        box-sizing: border-box;
       }
     }
   }
