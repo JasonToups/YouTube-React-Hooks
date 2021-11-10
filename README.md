@@ -1,4 +1,4 @@
-# YouTube Search with YouTube API in React
+# YouTube API Search with React Hooks
 
 ## Todos
 - [ ] When there's something to share, upload this to GitHub Pages.
