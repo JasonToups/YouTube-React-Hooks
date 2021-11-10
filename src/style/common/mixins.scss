@@ -1,0 +1,31 @@
+@mixin respond-to($breakpoint) {
+  @if $breakpoint == "xx-small" {
+    @media (max-width: $xx-small) {
+      @content;
+    }
+  } @else if $breakpoint == "x-small" {
+    @media (max-width: $x-small) {
+      @content;
+    }
+  } @else if $breakpoint == "small" {
+    @media (max-width: $small) {
+      @content;
+    }
+  } @else if $breakpoint == "medium" {
+    @media (max-width: $medium) {
+      @content;
+    }
+  } @else if $breakpoint == "large" {
+    @media (max-width: $large) {
+      @content;
+    }
+  } @else if $breakpoint == "x-large" {
+    @media (max-width: $x-large) {
+      @content;
+    }
+  } @else if $breakpoint == "xx-large" {
+    @media (max-width: $xs-large) {
+      @content;
+    }
+  }
+}

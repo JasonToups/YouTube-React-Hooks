@@ -1,4 +1,5 @@
 import React from 'react';
+import '../style/app.scss';
 import SearchBar from './SearchBar';
 import youtube from '../apis/youtube';
 import VideoList from './VideoList';
@@ -41,11 +42,11 @@ class App extends React.Component {
 			<div className='ui container'>
 				<SearchBar onFormSubmit={this.onTermSubmit} />
 				<div className='ui grid'>
-					<div className='ui row'>
-						<div className='ten wide column'>
+					<div className='ui row video-content-section'>
+						<div className='ten wide column video-player-container'>
 							<VideoDetail video={this.state.selectedVideo} />
 						</div>
-						<div className='five wide column'>
+						<div className='five wide column video-previews-container'>
 							<VideoList
 								onVideoSelect={this.onVideoSelect}
 								videos={this.state.videos}
