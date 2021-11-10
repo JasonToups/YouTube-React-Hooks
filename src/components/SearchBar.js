@@ -1,4 +1,5 @@
 import React from 'react';
+import reactLogo from "../style/icons/reactLogo.svg";
 
 class SearchBar extends React.Component {
 	state = { term: '' };
@@ -16,7 +17,10 @@ class SearchBar extends React.Component {
 	render() {
 		return (
 			<div className='search-bar ui segment'>
-				<div className='logo'></div>
+				<div className='logo-container'>
+					<img src={reactLogo} className='logo'/>
+					<h1>Tube</h1>
+				</div>
 				<form onSubmit={this.onFormSubmit} className='ui form'>
 					<div className='field'>
 						<label>Video Search</label>

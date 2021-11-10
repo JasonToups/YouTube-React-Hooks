@@ -1,11 +1,30 @@
 // Search Bar
 .search-bar {
   display: flex;
-  
-  .logo {
 
+  .logo-container {
+    display: flex;
+    flex-direction: row;
+    flex: 120px 0;
+    align-items: center;
+
+    .logo {
+      width: 60px;
+      height: 60px;
+    }
+    @media (prefers-reduced-motion: no-preference) {
+      .logo {
+        animation: App-logo-spin infinite 20s linear;
+      }
+    }
+
+    h1 {
+      margin: 0 2.5rem 0 -10px;
+      font-size: 2.1875rem;
+    }
   }
   .form {
+    flex: 1;
 
     .field {
       
@@ -75,3 +94,11 @@
 }
 
 
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
