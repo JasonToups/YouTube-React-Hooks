@@ -2,6 +2,7 @@
 
 ## Todos
 - [ ] When there's something to share, upload this to GitHub Pages.
+- [ ] Look for recently added Videos, check the params.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
