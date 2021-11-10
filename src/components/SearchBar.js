@@ -18,7 +18,7 @@ class SearchBar extends React.Component {
 		return (
 			<div className='search-bar ui segment'>
 				<div className='logo-container'>
-					<img src={reactLogo} className='logo'/>
+					<img src={reactLogo} className='logo' alt="react logo"/>
 					<h1>Tube</h1>
 				</div>
 				<form onSubmit={this.onFormSubmit} className='ui form'>
