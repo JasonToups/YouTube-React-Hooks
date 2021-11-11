@@ -14,7 +14,7 @@ class App extends React.Component {
 	};
 
 	componentDidMount() {
-		this.onTermSubmit('cats');
+		this.onTermSubmit('react js');
 	}
 
 	onTermSubmit = async term => {
