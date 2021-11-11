@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/YouTube-React-Hooks/static/css/main.21c6e085.chunk.css",
-    "main.js": "/YouTube-React-Hooks/static/js/main.7d6a3ac4.chunk.js",
-    "main.js.map": "/YouTube-React-Hooks/static/js/main.7d6a3ac4.chunk.js.map",
+    "main.js": "/YouTube-React-Hooks/static/js/main.1b0baabc.chunk.js",
+    "main.js.map": "/YouTube-React-Hooks/static/js/main.1b0baabc.chunk.js.map",
     "runtime-main.js": "/YouTube-React-Hooks/static/js/runtime-main.597a8311.js",
     "runtime-main.js.map": "/YouTube-React-Hooks/static/js/runtime-main.597a8311.js.map",
-    "static/js/2.83f62f66.chunk.js": "/YouTube-React-Hooks/static/js/2.83f62f66.chunk.js",
-    "static/js/2.83f62f66.chunk.js.map": "/YouTube-React-Hooks/static/js/2.83f62f66.chunk.js.map",
+    "static/js/2.31271b9e.chunk.js": "/YouTube-React-Hooks/static/js/2.31271b9e.chunk.js",
+    "static/js/2.31271b9e.chunk.js.map": "/YouTube-React-Hooks/static/js/2.31271b9e.chunk.js.map",
     "index.html": "/YouTube-React-Hooks/index.html",
-    "precache-manifest.a4a3afa98b508bff2708f29bc7470b21.js": "/YouTube-React-Hooks/precache-manifest.a4a3afa98b508bff2708f29bc7470b21.js",
+    "precache-manifest.2b90eb1635edc6b8caf0bb36317b9d97.js": "/YouTube-React-Hooks/precache-manifest.2b90eb1635edc6b8caf0bb36317b9d97.js",
     "service-worker.js": "/YouTube-React-Hooks/service-worker.js",
     "static/css/main.21c6e085.chunk.css.map": "/YouTube-React-Hooks/static/css/main.21c6e085.chunk.css.map",
-    "static/js/2.83f62f66.chunk.js.LICENSE.txt": "/YouTube-React-Hooks/static/js/2.83f62f66.chunk.js.LICENSE.txt",
+    "static/js/2.31271b9e.chunk.js.LICENSE.txt": "/YouTube-React-Hooks/static/js/2.31271b9e.chunk.js.LICENSE.txt",
     "static/media/reactLogo.svg": "/YouTube-React-Hooks/static/media/reactLogo.5d5d9eef.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.597a8311.js",
-    "static/js/2.83f62f66.chunk.js",
+    "static/js/2.31271b9e.chunk.js",
     "static/css/main.21c6e085.chunk.css",
-    "static/js/main.7d6a3ac4.chunk.js"
+    "static/js/main.1b0baabc.chunk.js"
   ]
 }
