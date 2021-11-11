@@ -1,10 +1,10 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "978b3cb44cac2e88cea793455319bc8f",
+    "revision": "12fbf9297e98e06b003899e98d2e9b4b",
     "url": "/YouTube-React-Hooks/index.html"
   },
   {
-    "revision": "df5d0a13d049d4d5d2bb",
+    "revision": "950d916ada4a2d2ecb42",
     "url": "/YouTube-React-Hooks/static/css/main.21c6e085.chunk.css"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/YouTube-React-Hooks/static/js/2.31271b9e.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "df5d0a13d049d4d5d2bb",
-    "url": "/YouTube-React-Hooks/static/js/main.b2544c5d.chunk.js"
+    "revision": "950d916ada4a2d2ecb42",
+    "url": "/YouTube-React-Hooks/static/js/main.0f849f77.chunk.js"
   },
   {
     "revision": "54b833ed97506e1189af",
