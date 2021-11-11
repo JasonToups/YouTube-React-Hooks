@@ -39,19 +39,18 @@ class App extends React.Component {
 
 	render() {
 		return (
-			<div className='ui container youtube-search-page'>
+			<div className='youtube-search-page'>
+				<div className='background'></div>
 				<SearchBar onFormSubmit={this.onTermSubmit} />
-				<div className='ui grid'>
-					<div className='ui row video-content-section'>
-						<div className='ten wide column video-player-container'>
-							<VideoDetail video={this.state.selectedVideo} />
-						</div>
-						<div className='five wide column video-previews-container'>
-							<VideoList
-								onVideoSelect={this.onVideoSelect}
-								videos={this.state.videos}
-							/>
-						</div>
+				<div className='video-content-section'>
+					<div className='video-player-container'>
+						<VideoDetail video={this.state.selectedVideo} />
+					</div>
+					<div className='video-previews-container'>
+						<VideoList
+							onVideoSelect={this.onVideoSelect}
+							videos={this.state.videos}
+						/>
 					</div>
 				</div>
 			</div>

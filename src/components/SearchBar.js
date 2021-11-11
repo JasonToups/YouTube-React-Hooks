@@ -16,12 +16,12 @@ class SearchBar extends React.Component {
 
 	render() {
 		return (
-			<div className='search-bar ui segment'>
+			<div className='search-bar'>
 				<div className='logo-container'>
 					<img src={reactLogo} className='logo' alt="react logo"/>
 					<h1>Tube</h1>
 				</div>
-				<form onSubmit={this.onFormSubmit} className='ui form'>
+				<form onSubmit={this.onFormSubmit} className='form'>
 					<div className='field'>
 						<label>Video Search</label>
 						<input
