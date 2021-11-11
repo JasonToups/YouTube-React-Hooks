@@ -11,6 +11,9 @@
 # production
 /build
 
+# hidden keys
+key.json
+
 # misc
 .DS_Store
 .env
