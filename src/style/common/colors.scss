@@ -21,4 +21,6 @@ $color-quaternary: $pewter-blue;
 
 // Shadows & Borders
 $box-shadow: 0 .0625rem .125rem 0 $color-tertiary;
-$border: 1px solid $color-tertiary;
+$border-light: 1px solid $color-primary;
+$border-dark: 1px solid $color-tertiary;
+$border-grey: 1px solid $color-quaternary;
