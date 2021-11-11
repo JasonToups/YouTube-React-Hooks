@@ -1,8 +1,6 @@
 # YouTube API Search with React Hooks
 
-## Todos
-- [ ] When there's something to share, upload this to GitHub Pages.
-- [ ] Look for recently added Videos, check the params.
+## Readme In Development
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
