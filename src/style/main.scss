@@ -1,5 +1,8 @@
 * {
   margin: 0;
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+  font-size: 16px;
 }
 
 #root {
@@ -8,8 +11,20 @@
   font-family: $font-primary;
 }
 
+.background {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: $color-secondary;
+  z-index: -1;
+}
+
 .youtube-search-page {
-  max-width: 1127px;
+  display: block;
+  width: 1127px;
+  max-width: 100%;
   margin: 0 auto;
   padding-bottom: 20px;
   border-bottom: $border-light;
@@ -17,15 +32,21 @@
 
 // Search Bar
 .search-bar {
+  position: relative;
   display: flex;
-  width: 100%;
+  width: auto;
   background: $white;
-  padding: .875rem;
+  font-size: 1rem;
+  padding: 1rem;
   border: $border-light;
   box-shadow: $box-shadow;
   border-radius: .25rem;
-  margin-bottom: .9375rem;
-  box-sizing: border-box;
+  margin-top: 0;
+  margin-bottom: 1.25rem;
+  @include respond-to ($breakpoint-small) {
+    margin-bottom: 0.75rem;
+    padding: 0.5rem;
+  }
 
   .logo-container {
     display: flex;
@@ -46,16 +67,26 @@
     h1 {
       margin: 0 2.5rem 0 -10px;
       font-size: 2.1875rem;
+      @include respond-to ($breakpoint-small) {
+        margin: 0 1rem 0 -10px;
+      }
     }
   }
   .form {
+    position: relative;
     flex: 1;
     width: 100%;
-    
+    max-width: 100%;
+    font-size: 1rem;
     .field {
       
       label {
-        
+        display: block;
+        margin: 0 0 .28571429rem 0;
+        color: rgba(0,0,0,.87);
+        font-size: .92857143em;
+        font-weight: 700;
+        text-transform: none;
       }
       input {
         width: 100%;
@@ -67,32 +98,79 @@
   }
 }
 
-
 .video-content-section {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: row;
   flex-direction: row;
+  -ms-flex-wrap: nowrap;
+  flex-wrap: nowrap;
+  -webkit-box-pack: inherit;
+  -ms-flex-pack: inherit;
+  justify-content: inherit;
+  -webkit-box-align: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  width: 100% !important;
+  padding: 0 0 1rem 0;
+
+  @include respond-to ($breakpoint-small) {
+    flex-direction: column;
+  }
 
   .video-player-container {
-    flex: 60%;
-    padding: 0 1.875rem 0 0;
+    position: relative;
+    background: $color-secondary;
+    display: inline-block;
+    flex: 60% 0;
+    vertical-align: top;
+    padding: 0 1rem 0 0;
+    width: 62.5%;
+    
+    @include respond-to ($breakpoint-small) {
+      width: 100%;
+      padding: 0;
+    }
 
     .video-player {
-      // display: block;
-      // width: 100%;
       position: relative;
       max-width: 100%;
       height: 0;
       overflow: hidden;
       padding-bottom: 56.25%;
-      box-sizing: inherit;
+      background: $color-secondary;
+
+      iframe {
+        position: absolute;
+        border: none;
+        width: 100%;
+        height: 100%;
+        top: 0;
+        left: 0;
+        margin: 0;
+        padding: 0;
+      }
     }
     .video-description {
+      position: relative;
+      background: $white;
       padding: .875rem;
+      margin: 1rem 0;
       border: 1px solid rgba(34,36,38,.15);
       border-radius: .28125rem;
       box-shadow: 0 1px 2px 0 rgb(34 36 38 / 15%);
+
+      @include respond-to ($breakpoint-small) {
+        margin: 0.5rem 0 1.5rem 0;
+      }
+
       h4 {
         font-size: inherit;
+        color: $color-quaternary;
       }
       p {
         font-size: inherit;
@@ -100,7 +178,7 @@
     }
   }
   .video-previews-container {
-    flex: 40%;
+    flex: 40% 0;
     padding: 0 .875rem;
 
     .video-item {
@@ -110,16 +188,26 @@
       align-content: flex-start;
       justify-content: flex-start;
       cursor: pointer;
-
+      padding: 0 0 0.75rem 0;
+      margin: 0 0 0.75rem 0;
+      border-bottom: $border-grey;
+      
       @include respond-to ($breakpoint-large) {
         flex-direction: column;
+      }
+      @include respond-to ($breakpoint-small) {
+        flex-direction: row;
       }
       
       img {
         max-width: 180px;
+        margin: 0 0.5rem 0 0;
 
         @include respond-to ($breakpoint-large) {
           padding-bottom: 10px;
+        }
+        @include respond-to ($breakpoint-small) {
+          padding-bottom: 0;
         }
       }
       .content {
