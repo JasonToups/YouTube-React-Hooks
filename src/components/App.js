@@ -5,7 +5,7 @@ import youtube from '../apis/youtube';
 import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
 
-const KEY = '' '';
+// const KEY = "' '";
 
 class App extends React.Component {
 	state = {
@@ -24,7 +24,7 @@ class App extends React.Component {
 				part: 'snippet',
 				maxResults: 5,
 				type: 'video',
-				key: KEY,
+				key: process.env.REACT_APP_KEY,
 			},
 		});
 		this.setState({
