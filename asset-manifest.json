@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/YouTube-React-Hooks/static/css/main.21c6e085.chunk.css",
-    "main.js": "/YouTube-React-Hooks/static/js/main.1b0baabc.chunk.js",
-    "main.js.map": "/YouTube-React-Hooks/static/js/main.1b0baabc.chunk.js.map",
-    "runtime-main.js": "/YouTube-React-Hooks/static/js/runtime-main.597a8311.js",
-    "runtime-main.js.map": "/YouTube-React-Hooks/static/js/runtime-main.597a8311.js.map",
-    "static/js/2.31271b9e.chunk.js": "/YouTube-React-Hooks/static/js/2.31271b9e.chunk.js",
-    "static/js/2.31271b9e.chunk.js.map": "/YouTube-React-Hooks/static/js/2.31271b9e.chunk.js.map",
-    "index.html": "/YouTube-React-Hooks/index.html",
-    "precache-manifest.72802d67927670a9b1ac1bb8626da3a1.js": "/YouTube-React-Hooks/precache-manifest.72802d67927670a9b1ac1bb8626da3a1.js",
-    "service-worker.js": "/YouTube-React-Hooks/service-worker.js",
-    "static/css/main.21c6e085.chunk.css.map": "/YouTube-React-Hooks/static/css/main.21c6e085.chunk.css.map",
-    "static/js/2.31271b9e.chunk.js.LICENSE.txt": "/YouTube-React-Hooks/static/js/2.31271b9e.chunk.js.LICENSE.txt",
-    "static/media/reactLogo.svg": "/YouTube-React-Hooks/static/media/reactLogo.5d5d9eef.svg"
+    "main.css": "https://JasonToups.github.io/YouTube-React-Hooks/static/css/main.21c6e085.chunk.css",
+    "main.js": "https://JasonToups.github.io/YouTube-React-Hooks/static/js/main.b2544c5d.chunk.js",
+    "main.js.map": "https://JasonToups.github.io/YouTube-React-Hooks/static/js/main.b2544c5d.chunk.js.map",
+    "runtime-main.js": "https://JasonToups.github.io/YouTube-React-Hooks/static/js/runtime-main.4c998fd1.js",
+    "runtime-main.js.map": "https://JasonToups.github.io/YouTube-React-Hooks/static/js/runtime-main.4c998fd1.js.map",
+    "static/js/2.31271b9e.chunk.js": "https://JasonToups.github.io/YouTube-React-Hooks/static/js/2.31271b9e.chunk.js",
+    "static/js/2.31271b9e.chunk.js.map": "https://JasonToups.github.io/YouTube-React-Hooks/static/js/2.31271b9e.chunk.js.map",
+    "index.html": "https://JasonToups.github.io/YouTube-React-Hooks/index.html",
+    "precache-manifest.aae1fca0ee7d82fc1a660822d8f1ca38.js": "https://JasonToups.github.io/YouTube-React-Hooks/precache-manifest.aae1fca0ee7d82fc1a660822d8f1ca38.js",
+    "service-worker.js": "https://JasonToups.github.io/YouTube-React-Hooks/service-worker.js",
+    "static/css/main.21c6e085.chunk.css.map": "https://JasonToups.github.io/YouTube-React-Hooks/static/css/main.21c6e085.chunk.css.map",
+    "static/js/2.31271b9e.chunk.js.LICENSE.txt": "https://JasonToups.github.io/YouTube-React-Hooks/static/js/2.31271b9e.chunk.js.LICENSE.txt",
+    "static/media/reactLogo.svg": "https://JasonToups.github.io/YouTube-React-Hooks/static/media/reactLogo.5d5d9eef.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.597a8311.js",
+    "static/js/runtime-main.4c998fd1.js",
     "static/js/2.31271b9e.chunk.js",
     "static/css/main.21c6e085.chunk.css",
-    "static/js/main.1b0baabc.chunk.js"
+    "static/js/main.b2544c5d.chunk.js"
   ]
 }
