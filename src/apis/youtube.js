@@ -1,5 +1,4 @@
 import axios from 'axios';
-import KEY from './key.json'
 
 export default axios.create({
 	baseURL: 'https://www.googleapis.com/youtube/v3',
@@ -7,6 +6,6 @@ export default axios.create({
 		part: 'snippet',
 		type: 'video',
 		maxResults: 5,
-		key: KEY
+		key: process.env.REACT_APP_KEY
 	},
 });
