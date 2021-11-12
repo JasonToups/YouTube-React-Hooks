@@ -5,7 +5,6 @@ import youtube from '../apis/youtube';
 import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
 
-// const KEY = "' '";
 
 class App extends React.Component {
 	state = {
