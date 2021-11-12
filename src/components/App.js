@@ -1,38 +1,23 @@
 import React, {useState, useEffect} from 'react';
 import '../style/app.scss';
 import SearchBar from './SearchBar';
-import youtube from '../apis/youtube';
 import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
+import useVideos from '../hooks/useVideos';
 
 const App = () => {
-	const [videos, setVideos] = useState([]);
+	
 	const [selectedVideo, setSelectedVideo] = useState(null);
+	const [videos, search] = useVideos('react js');
 
 	useEffect(() => {
-		onTermSubmit('react js');
-
-	}, []);
-
-	const onTermSubmit = async term => {
-		const response = await youtube.get('/search', {
-			params: {
-				q: term,
-				part: 'snippet',
-				maxResults: 5,
-				type: 'video',
-				key: process.env.REACT_APP_KEY,
-			},
-		});
-
-		setVideos(response.data.items);
-		setSelectedVideo(response.data.items[0]);
-	};
+		setSelectedVideo(videos[0]);
+	}, [videos]);
 
 	return (
 		<div className='youtube-search-page'>
 			<div className='background'></div>
-			<SearchBar onFormSubmit={onTermSubmit} />
+			<SearchBar onFormSubmit={search} />
 			<div className='video-content-section'>
 				<div className='video-player-container'>
 					<VideoDetail video={selectedVideo} />
