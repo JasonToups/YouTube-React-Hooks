@@ -29,10 +29,6 @@ const App = () => {
 		setSelectedVideo(response.data.items[0]);
 	};
 
-	const onVideoSelect = video => {
-		setSelectedVideo(video);
-	};
-
 	return (
 		<div className='youtube-search-page'>
 			<div className='background'></div>
@@ -43,7 +39,7 @@ const App = () => {
 				</div>
 				<div className='video-previews-container'>
 					<VideoList
-						onVideoSelect={onVideoSelect}
+						onVideoSelect={setSelectedVideo}
 						videos={videos}
 					/>
 				</div>
