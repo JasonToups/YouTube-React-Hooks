@@ -1,7 +1,86 @@
 # YouTube API Search with React Hooks
 
-## Readme In Development
+This application is built in React to search the YouTube API and return a short list of 5 videos.
 
+The first video shows up in preview in the VideoDetail Component, and the full list is selectable as thumbnails to the side of the main video preview in the VideoList Component. 
+
+![React Tube Screenshot](./public/react-tube-screenshot.png)
+
+## Hooks
+I've used two Hooks in this application, and here's how they were used. 
+
+### SearchBar.js
+- useState()
+
+I used `useState()` to handle the state of the SearchBar Component input, to track the term that's being entered in the form to search the YouTube API.
+
+```javascript
+const SearchBar = ({ onFormSubmit }) => {
+	const [term, setTerm] = useState('')
+
+	const onSubmit = event => {
+		event.preventDefault();
+
+		onFormSubmit(term);
+	};
+```
+
+Here's the form & input JSX in the return statement of the SearchBar Component function:
+
+```javascript
+<form onSubmit={onSubmit} className='form'>
+  <div className='field'>
+    <label>Video Search</label>
+    <input
+      type='text'
+      value={term}
+      onChange={(event) => setTerm(event.target.value)}
+    />
+  </div>
+</form>
+```
+
+When the input field changes, the `term` state is updated as well.
+
+### App.js
+- useState()
+- useEffect() 
+
+I also used `useState()` in the App Component function to handle storing the array of videos sent back from the YouTube API, along with tracking the currently selected video in the VideoDetail Component.
+
+```javascript
+const [videos, setVideos] = useState([]);
+const [selectedVideo, setSelectedVideo] = useState(null);
+```
+Here's the onTermSubmit function within the App Component that calls the `youtube.js` function to handle the API request:
+
+```javascript
+const onTermSubmit = async term => {
+		const response = await youtube.get('/search', {
+			params: {
+				q: term,
+				part: 'snippet',
+				maxResults: 5,
+				type: 'video',
+				key: process.env.REACT_APP_KEY,
+			},
+		});
+
+		setVideos(response.data.items);
+		setSelectedVideo(response.data.items[0]);
+	};
+```
+`useEffect()` is a lifecycle hook that is called when the App Component mounts initially. It submits "react js" as the search term to make an API request for React JS videos
+
+```javascript
+useEffect(() => {
+		onTermSubmit('react js');
+
+}, []);
+```
+
+
+-----
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
