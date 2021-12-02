@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import reactLogo from "../style/icons/reactLogo.svg";
+import reactLogo from "../style/icons/reactLogo-white.svg";
 
 const SearchBar = ({ onFormSubmit }) => {
 	const [term, setTerm] = useState('')
@@ -14,7 +14,7 @@ const SearchBar = ({ onFormSubmit }) => {
 		<div className='search-bar'>
 			<div className='logo-container'>
 				<img src={reactLogo} className='logo' alt="react logo"/>
-				<h1>Tube</h1>
+				<h1>React Tube</h1>
 			</div>
 			<form onSubmit={onSubmit} className='form'>
 				<div className='field'>

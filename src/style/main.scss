@@ -51,8 +51,12 @@
   .logo-container {
     display: flex;
     flex-direction: row;
-    flex: 120px 0;
+    flex: 260px 0;
     align-items: center;
+    background-image: url('./icons/reactLogo-backgroundImage.svg');
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 23%;
 
     .logo {
       width: 60px;
@@ -65,8 +69,10 @@
     }
 
     h1 {
-      margin: 0 2.5rem 0 -10px;
+      margin: 0 0 0 8px;
       font-size: 2.1875rem;
+      font-family: $font-secondary;
+      word-spacing: -9px;
       @include respond-to ($breakpoint-small) {
         margin: 0 1rem 0 -10px;
       }
@@ -168,9 +174,10 @@
         margin: 0.5rem 0 1.5rem 0;
       }
 
-      h4 {
+      h2 {
         font-size: inherit;
         color: $color-quaternary;
+        margin: 0 0 10px 0;
       }
       p {
         font-size: inherit;
@@ -212,6 +219,10 @@
       }
       .content {
         display: block;
+
+        h3 {
+          font-weight: 500;
+        }
       }
     }
   }
