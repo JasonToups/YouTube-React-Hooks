@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/YouTube-React-Hooks/static/css/main.ff040c50.chunk.css",
+    "main.css": "/YouTube-React-Hooks/static/css/main.e07d3d2d.chunk.css",
     "main.js": "/YouTube-React-Hooks/static/js/main.acb5278a.chunk.js",
     "main.js.map": "/YouTube-React-Hooks/static/js/main.acb5278a.chunk.js.map",
     "runtime-main.js": "/YouTube-React-Hooks/static/js/runtime-main.597a8311.js",
@@ -8,9 +8,9 @@
     "static/js/2.667aaa61.chunk.js": "/YouTube-React-Hooks/static/js/2.667aaa61.chunk.js",
     "static/js/2.667aaa61.chunk.js.map": "/YouTube-React-Hooks/static/js/2.667aaa61.chunk.js.map",
     "index.html": "/YouTube-React-Hooks/index.html",
-    "precache-manifest.34a30c76333076b344514f567b6adf74.js": "/YouTube-React-Hooks/precache-manifest.34a30c76333076b344514f567b6adf74.js",
+    "precache-manifest.d8d8056caa0623770b01ba79d3288638.js": "/YouTube-React-Hooks/precache-manifest.d8d8056caa0623770b01ba79d3288638.js",
     "service-worker.js": "/YouTube-React-Hooks/service-worker.js",
-    "static/css/main.ff040c50.chunk.css.map": "/YouTube-React-Hooks/static/css/main.ff040c50.chunk.css.map",
+    "static/css/main.e07d3d2d.chunk.css.map": "/YouTube-React-Hooks/static/css/main.e07d3d2d.chunk.css.map",
     "static/js/2.667aaa61.chunk.js.LICENSE.txt": "/YouTube-React-Hooks/static/js/2.667aaa61.chunk.js.LICENSE.txt",
     "static/media/app.scss": "/YouTube-React-Hooks/static/media/reactLogo-backgroundImage.c00e6e5a.svg",
     "static/media/reactLogo-white.svg": "/YouTube-React-Hooks/static/media/reactLogo-white.8d87a3bd.svg"
@@ -18,7 +18,7 @@
   "entrypoints": [
     "static/js/runtime-main.597a8311.js",
     "static/js/2.667aaa61.chunk.js",
-    "static/css/main.ff040c50.chunk.css",
+    "static/css/main.e07d3d2d.chunk.css",
     "static/js/main.acb5278a.chunk.js"
   ]
 }
