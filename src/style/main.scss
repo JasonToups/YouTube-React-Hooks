@@ -51,12 +51,12 @@
   .logo-container {
     display: flex;
     flex-direction: row;
-    flex: 260px 0;
+    flex: 230px 0;
     align-items: center;
     background-image: url('./icons/reactLogo-backgroundImage.svg');
     background-repeat: no-repeat;
     background-position: left;
-    background-size: 23%;
+    background-size: 26%;
 
     .logo {
       width: 60px;
@@ -69,13 +69,10 @@
     }
 
     h1 {
-      margin: 0 0 0 8px;
+      margin: 0 0 0 3px;
       font-size: 2.1875rem;
       font-family: $font-secondary;
       word-spacing: -9px;
-      @include respond-to ($breakpoint-small) {
-        margin: 0 1rem 0 -10px;
-      }
     }
   }
   .form {
