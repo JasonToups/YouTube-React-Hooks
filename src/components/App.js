@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import '../style/app.scss';
+import Contact from './Contact';
 import SearchBar from './SearchBar';
 import VideoList from './VideoList';
 import VideoDetail from './VideoDetail';
@@ -29,6 +30,7 @@ const App = () => {
 					/>
 				</div>
 			</div>
+      <Contact />
 		</div>
 	);
 };
