@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/YouTube-React-Hooks/static/css/main.0581e799.chunk.css",
+    "main.css": "/YouTube-React-Hooks/static/css/main.191694f4.chunk.css",
     "main.js": "/YouTube-React-Hooks/static/js/main.1fe226e2.chunk.js",
     "main.js.map": "/YouTube-React-Hooks/static/js/main.1fe226e2.chunk.js.map",
     "runtime-main.js": "/YouTube-React-Hooks/static/js/runtime-main.d0273d64.js",
@@ -8,7 +8,7 @@
     "static/js/2.e6388f69.chunk.js": "/YouTube-React-Hooks/static/js/2.e6388f69.chunk.js",
     "static/js/2.e6388f69.chunk.js.map": "/YouTube-React-Hooks/static/js/2.e6388f69.chunk.js.map",
     "index.html": "/YouTube-React-Hooks/index.html",
-    "static/css/main.0581e799.chunk.css.map": "/YouTube-React-Hooks/static/css/main.0581e799.chunk.css.map",
+    "static/css/main.191694f4.chunk.css.map": "/YouTube-React-Hooks/static/css/main.191694f4.chunk.css.map",
     "static/js/2.e6388f69.chunk.js.LICENSE.txt": "/YouTube-React-Hooks/static/js/2.e6388f69.chunk.js.LICENSE.txt",
     "static/media/app.scss": "/YouTube-React-Hooks/static/media/reactLogo-backgroundImage.f1f047b3.svg",
     "static/media/reactLogo-white.b72f6410.svg": "/YouTube-React-Hooks/static/media/reactLogo-white.b72f6410.svg"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.d0273d64.js",
     "static/js/2.e6388f69.chunk.js",
-    "static/css/main.0581e799.chunk.css",
+    "static/css/main.191694f4.chunk.css",
     "static/js/main.1fe226e2.chunk.js"
   ]
 }
