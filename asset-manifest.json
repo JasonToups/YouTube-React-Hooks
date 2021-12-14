@@ -1,24 +1,22 @@
 {
   "files": {
-    "main.css": "/YouTube-React-Hooks/static/css/main.e07d3d2d.chunk.css",
-    "main.js": "/YouTube-React-Hooks/static/js/main.c9fe266a.chunk.js",
-    "main.js.map": "/YouTube-React-Hooks/static/js/main.c9fe266a.chunk.js.map",
-    "runtime-main.js": "/YouTube-React-Hooks/static/js/runtime-main.597a8311.js",
-    "runtime-main.js.map": "/YouTube-React-Hooks/static/js/runtime-main.597a8311.js.map",
-    "static/js/2.667aaa61.chunk.js": "/YouTube-React-Hooks/static/js/2.667aaa61.chunk.js",
-    "static/js/2.667aaa61.chunk.js.map": "/YouTube-React-Hooks/static/js/2.667aaa61.chunk.js.map",
+    "main.css": "/YouTube-React-Hooks/static/css/main.0581e799.chunk.css",
+    "main.js": "/YouTube-React-Hooks/static/js/main.1fe226e2.chunk.js",
+    "main.js.map": "/YouTube-React-Hooks/static/js/main.1fe226e2.chunk.js.map",
+    "runtime-main.js": "/YouTube-React-Hooks/static/js/runtime-main.d0273d64.js",
+    "runtime-main.js.map": "/YouTube-React-Hooks/static/js/runtime-main.d0273d64.js.map",
+    "static/js/2.e6388f69.chunk.js": "/YouTube-React-Hooks/static/js/2.e6388f69.chunk.js",
+    "static/js/2.e6388f69.chunk.js.map": "/YouTube-React-Hooks/static/js/2.e6388f69.chunk.js.map",
     "index.html": "/YouTube-React-Hooks/index.html",
-    "precache-manifest.aaa3f2a2e83fafead3cf9ccf4bcd29c5.js": "/YouTube-React-Hooks/precache-manifest.aaa3f2a2e83fafead3cf9ccf4bcd29c5.js",
-    "service-worker.js": "/YouTube-React-Hooks/service-worker.js",
-    "static/css/main.e07d3d2d.chunk.css.map": "/YouTube-React-Hooks/static/css/main.e07d3d2d.chunk.css.map",
-    "static/js/2.667aaa61.chunk.js.LICENSE.txt": "/YouTube-React-Hooks/static/js/2.667aaa61.chunk.js.LICENSE.txt",
-    "static/media/app.scss": "/YouTube-React-Hooks/static/media/reactLogo-backgroundImage.c00e6e5a.svg",
-    "static/media/reactLogo-white.svg": "/YouTube-React-Hooks/static/media/reactLogo-white.8d87a3bd.svg"
+    "static/css/main.0581e799.chunk.css.map": "/YouTube-React-Hooks/static/css/main.0581e799.chunk.css.map",
+    "static/js/2.e6388f69.chunk.js.LICENSE.txt": "/YouTube-React-Hooks/static/js/2.e6388f69.chunk.js.LICENSE.txt",
+    "static/media/app.scss": "/YouTube-React-Hooks/static/media/reactLogo-backgroundImage.f1f047b3.svg",
+    "static/media/reactLogo-white.b72f6410.svg": "/YouTube-React-Hooks/static/media/reactLogo-white.b72f6410.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.597a8311.js",
-    "static/js/2.667aaa61.chunk.js",
-    "static/css/main.e07d3d2d.chunk.css",
-    "static/js/main.c9fe266a.chunk.js"
+    "static/js/runtime-main.d0273d64.js",
+    "static/js/2.e6388f69.chunk.js",
+    "static/css/main.0581e799.chunk.css",
+    "static/js/main.1fe226e2.chunk.js"
   ]
 }
