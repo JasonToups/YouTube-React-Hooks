@@ -252,6 +252,12 @@
       border-radius: 50%;
       margin: 0 20px;
       box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+
+      @include respond-to ($breakpoint-small) {
+        height: 3rem;
+        width: 3rem;
+        line-height: 48px;
+      }
     }
   }
   .footer {
